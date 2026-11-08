@@ -4,9 +4,15 @@
 
 ## 下载与安装
 
-**[直接下载 DMG（v1.0.2 测试版）](https://github.com/LiangLin0316/Sulan/releases/download/v1.0.2/Sulan-1.0.2-Universal-Test.dmg)** · [发布说明](https://github.com/LiangLin0316/Sulan/releases/tag/v1.0.2)
+**[直接下载 DMG（v1.0.2）](https://github.com/LiangLin0316/Sulan/releases/download/v1.0.2/Sulan-1.0.2-Universal.dmg)** · [发布说明](https://github.com/LiangLin0316/Sulan/releases/tag/v1.0.2)
 
-适用于 macOS 13 及以上，支持 Apple 芯片和 Intel。打开下载的 DMG，把 `Sulan.app` 拖进「应用程序」，再从那里启动。测试版未经 Apple 公证，首次打开时 macOS 可能拦截。
+适用于 macOS 13 及以上，支持 Apple 芯片和 Intel。打开下载的 DMG，把 `Sulan.app` 拖进「应用程序」，再从那里启动。应用未经 Apple 公证，首次打开时 macOS 可能拦截。
+
+## 菜单栏预览
+
+![速栏在 macOS 菜单栏中的显示效果](Screenshot.png)
+
+截图左侧的两行数字就是速栏，上方 `↓` 显示下载速度，下方 `↑` 显示上传速度。
 
 ## 从源码运行
 
