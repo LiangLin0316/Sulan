@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="330" viewBox="0 0 600 330">
+  <defs>
+    <linearGradient id="background" x2="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#EAF3FF"/>
+      <stop offset="1" stop-color="#F7F9FD"/>
+    </linearGradient>
+  </defs>
+  <rect width="600" height="330" fill="url(#background)"/>
+  <g text-anchor="middle" font-family="PingFang SC, sans-serif">
+    <text x="300" y="51" font-size="29" font-weight="600" fill="#14254B">速栏</text>
+    <text x="300" y="83" font-size="14" fill="#42567D">将左侧应用拖到右侧文件夹，即可安装</text>
+  </g>
+  <g fill="#FFFFFF" fill-opacity=".58" stroke="#D7E3F5">
+    <rect x="81" y="115" width="166" height="153" rx="22"/>
+    <rect x="353" y="115" width="166" height="153" rx="22"/>
+  </g>
+  <circle cx="300" cy="189" r="24" fill="#DDEAFF"/>
+  <path d="M 289 189 H 311 M 302 180 L 311 189 L 302 198" fill="none" stroke="#2358BB" stroke-width="2.75" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="300" y="305" text-anchor="middle" font-family="PingFang SC, sans-serif" font-size="12" fill="#516389">适用于 macOS 13 及更新版本</text>
+</svg>
