@@ -2,7 +2,13 @@
 
 在 macOS 右上角菜单栏显示实时网速。上行的 `↓` 显示下载，下行的 `↑` 显示上传，每秒更新一次。点击菜单栏图标可查看数值或退出。
 
-## 运行
+## 下载与安装
+
+**[直接下载 DMG（v1.0.2 测试版）](https://github.com/LiangLin0316/Sulan/releases/download/v1.0.2/Sulan-1.0.2-Universal-Test.dmg)** · [发布说明](https://github.com/LiangLin0316/Sulan/releases/tag/v1.0.2)
+
+适用于 macOS 13 及以上，支持 Apple 芯片和 Intel。打开下载的 DMG，把 `Sulan.app` 拖进「应用程序」，再从那里启动。测试版未经 Apple 公证，首次打开时 macOS 可能拦截。
+
+## 从源码运行
 
 用支持 Swift 6 的 Xcode 打开 `Sulan.xcodeproj`，按 `⌘R` 启动。应用启动后出现在菜单栏。
 
