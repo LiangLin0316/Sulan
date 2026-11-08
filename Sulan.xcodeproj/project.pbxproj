@@ -1,0 +1,160 @@
+// !$*UTF8*$!
+{
+    archiveVersion = 1;
+    classes = {};
+    objectVersion = 56;
+    objects = {
+
+/* Begin PBXBuildFile section */
+        A10000000000000000000001 /* MenuBarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000011; };
+        A10000000000000000000002 /* TrafficMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000012; };
+        A10000000000000000000003 /* AppIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000015; };
+        A10000000000000000000004 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = A10000000000000000000016; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+        A10000000000000000000011 /* MenuBarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuBarApp.swift; sourceTree = "<group>"; };
+        A10000000000000000000012 /* TrafficMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrafficMonitor.swift; sourceTree = "<group>"; };
+        A10000000000000000000013 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+        A10000000000000000000014 /* Sulan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = Sulan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+        A10000000000000000000015 /* AppIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = AppIcon.icns; sourceTree = "<group>"; };
+        A10000000000000000000016 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+        A10000000000000000000021 = {
+            isa = PBXGroup;
+            children = (A10000000000000000000022, A10000000000000000000016, A10000000000000000000023);
+            sourceTree = "<group>";
+        };
+        A10000000000000000000022 /* Sulan */ = {
+            isa = PBXGroup;
+            children = (A10000000000000000000011, A10000000000000000000012, A10000000000000000000013, A10000000000000000000015);
+            path = Sulan;
+            sourceTree = "<group>";
+        };
+        A10000000000000000000023 /* Products */ = {
+            isa = PBXGroup;
+            children = (A10000000000000000000014);
+            name = Products;
+            sourceTree = "<group>";
+        };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+        A10000000000000000000031 /* Sulan */ = {
+            isa = PBXNativeTarget;
+            buildConfigurationList = A10000000000000000000062;
+            buildPhases = (A10000000000000000000041, A10000000000000000000042);
+            buildRules = ();
+            dependencies = ();
+            name = Sulan;
+            productName = Sulan;
+            productReference = A10000000000000000000014;
+            productType = "com.apple.product-type.application";
+        };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+        A10000000000000000000032 /* Project object */ = {
+            isa = PBXProject;
+            attributes = { LastUpgradeCheck = 1600; };
+            buildConfigurationList = A10000000000000000000061;
+            compatibilityVersion = "Xcode 14.0";
+            developmentRegion = "zh-Hans";
+            hasScannedForEncodings = 0;
+            knownRegions = ("zh-Hans", Base);
+            mainGroup = A10000000000000000000021;
+            productRefGroup = A10000000000000000000023;
+            projectDirPath = "";
+            projectRoot = "";
+            targets = (A10000000000000000000031);
+        };
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+        A10000000000000000000042 /* Resources */ = {
+            isa = PBXResourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (A10000000000000000000003, A10000000000000000000004);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+        A10000000000000000000041 /* Sources */ = {
+            isa = PBXSourcesBuildPhase;
+            buildActionMask = 2147483647;
+            files = (A10000000000000000000001, A10000000000000000000002);
+            runOnlyForDeploymentPostprocessing = 0;
+        };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+        A10000000000000000000051 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                ONLY_ACTIVE_ARCH = YES;
+                SDKROOT = macosx;
+                SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+                SWIFT_VERSION = 6.0;
+            };
+            name = Debug;
+        };
+        A10000000000000000000052 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                ALWAYS_SEARCH_USER_PATHS = NO;
+                DEBUG_INFORMATION_FORMAT = dwarf;
+                MACOSX_DEPLOYMENT_TARGET = 13.0;
+                SDKROOT = macosx;
+                SWIFT_COMPILATION_MODE = wholemodule;
+                SWIFT_VERSION = 6.0;
+            };
+            name = Release;
+        };
+        A10000000000000000000053 /* Debug */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_STYLE = Manual;
+                INFOPLIST_FILE = Sulan/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = local.menubarnetspeed;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+            };
+            name = Debug;
+        };
+        A10000000000000000000054 /* Release */ = {
+            isa = XCBuildConfiguration;
+            buildSettings = {
+                CODE_SIGN_IDENTITY = "-";
+                CODE_SIGN_STYLE = Manual;
+                INFOPLIST_FILE = Sulan/Info.plist;
+                PRODUCT_BUNDLE_IDENTIFIER = local.menubarnetspeed;
+                PRODUCT_NAME = "$(TARGET_NAME)";
+            };
+            name = Release;
+        };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+        A10000000000000000000061 /* Project configurations */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (A10000000000000000000051, A10000000000000000000052);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+        A10000000000000000000062 /* Target configurations */ = {
+            isa = XCConfigurationList;
+            buildConfigurations = (A10000000000000000000053, A10000000000000000000054);
+            defaultConfigurationIsVisible = 0;
+            defaultConfigurationName = Release;
+        };
+/* End XCConfigurationList section */
+
+    };
+    rootObject = A10000000000000000000032;
+}
